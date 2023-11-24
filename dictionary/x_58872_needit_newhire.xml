@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="86b5b4fa4762311029804c6d826d43e5" extends="task" label="NewHire" max_length="40" name="x_58872_needit_newhire" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Contact Number" max_length="40" name="contact" type="integer"/>
+        <element label="Date of Joining" max_length="40" name="date_of_joining" type="glide_date"/>
+        <element choice="3" label="Designation" mandatory="true" max_length="40" name="designation" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="-" sequence="0" value="-"/>
+                <element inactive_on_update="false" label="Assistant Manager" sequence="0" value="Assistant Manager"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="General Manager" sequence="1" value="General Manager"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Manager" sequence="2" value="manager"/>
+            </choice>
+        </element>
+        <element label="Gender" max_length="40" name="gender" type="boolean"/>
+        <element label="Name" mandatory="true" max_length="80" name="name" reference="sys_user" type="reference"/>
+        <element choice="3" label="Sub Designation" max_length="40" name="sub_designation" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="-" sequence="0" value="-"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="0" value="Choice 2"/>
+                <element inactive_on_update="false" label="General" sequence="0" value="general"/>
+                <element inactive_on_update="false" label="Assistant" sequence="1" value="Assistant"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="1" value="Choice 3"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+            </choice>
+        </element>
+    </element>
+</database>

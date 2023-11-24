@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>G_form methods in NewHire</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   
+	/*g_form.addErrorMessage('This ia an error message');
+	alert('Error message added');*/
+	
+	/*g_form.addInfoMessage('This is an Information message');
+	alert('Info message added');*/
+	
+	var fieldName = "designation";
+	var choiceValue = "value1";
+	var choiceLable = "Lable 1";
+	g_form.addOption('designation','Value1','Lable1');
+	
+	/*g_form.clearMessages();
+	alert('message cleared');*/
+	
+    /* var fieldNameToClear = "designation";
+	g_form.clearOptions(fieldNameToClear);*/
+	
+	/*g_form.clearValue('short_description');
+     alert('field value cleared');*/
+	 
+	
+	var controlObject = g_form.getControl('short_description');
+	if (controlObject)	{
+		controlObject.style.backgroundColor = 'yellow';
+	}
+	
+	
+	/* var displayValue = g_form.getDisplayValue('short_description');
+	if (displayValue){
+		alert('Display Value of "Short Description":'+displayValue);
+	} else {
+		alert ('No display value retrieved.');
+	}
+	*/
+	
+	/*var fieldLable = g_form.getLabelOf('address');
+	if (fieldLabel){
+		alert('Label of "Short Descripton" field:' + fieldLabel);
+	} else {
+		alert('No label retrieved for the specified field.');
+	}
+     */
+	
+	 /* var referenceValue = g_form.getReference('assigned_to');
+    if (referenceValue) {
+        alert('Reference value of "Assigned To" field: ' + referenceValue);
+    } else {
+        alert('No reference value retrieved for the specified field.');
+    }
+	*/
+	
+	/*
+	var tableName = g_form.getTableName();
+    if (tableName) {
+        alert('Table Name: ' + tableName);
+    } else {
+        alert('No table name retrieved.');
+    }
+	*/
+	
+	/*
+	var uniqueValue = g_form.getUniqueValue();
+    if (uniqueValue) {
+        alert('Unique Value of the Record: ' + uniqueValue);
+    } else {
+        alert('No unique value retrieved for the record.');
+    }
+	*/
+	
+
+	/* var shortDescriptionValue = g_form.getValue('short_description');
+    if (shortDescriptionValue) {
+        alert('Value of "Short Description" field: ' + shortDescriptionValue);
+    } else {
+        alert('No value retrieved for the specified field.');
+    }
+	*/
+	
+  
+	/* if(g_form.isNewRecord()) {
+     g_form.addInfoMessage('This is a new record.');
+	 }
+     else {
+		g_form.addInfoMessage('This is an exixting record.');
+		}
+		*/
+	
+     /*  var isMandatory = g_form.isMandatory('short_description');
+	 if (isMandatory){
+		 g_form.addInfoMessage('The field "Short Description" is mandatory');
+	 }
+	else{
+		g_form.addInfoMessage('The field "Short Description" is not mandatory');
+	}
+       */
+	
+	/*g_form.setDisplay('short_description',false);*/
+	
+	/*g_form.setMandatory('sub_designation',true);*/
+	
+	/*g_form.setReadOnly('Gender','true');*/
+	
+	/*g_form.setValue('sub_designation','Employees');*/
+	
+	/*g_form.setVisible('address','false');*/
+	
+	/*
+	g_form.save();
+	g_form.submit();
+	*/
+}
+	
+	
+	
+	]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-21 08:25:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ccda54b4722311029804c6d826d43c1</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>G_form methods in NewHire</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_0ccda54b4722311029804c6d826d43c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-22 14:09:22</sys_updated_on>
+        <table>x_58872_needit_newhire</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
