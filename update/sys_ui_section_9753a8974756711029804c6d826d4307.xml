@@ -1,62 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="9753a8974756711029804c6d826d4307" sys_domain="global" table="x_58872_needit_needit_new" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>29c317094766711029804c6d826d4300</element>
+            <element>.split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-11-15 08:52:41</sys_created_on>
-            <sys_id>a9c317094766711029804c6d826d434f</sys_id>
+            <sys_created_on>2023-11-27 06:10:57</sys_created_on>
+            <sys_id>29d1e8c147fa351029804c6d826d435f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_needit_new" sys_domain="global" view="Default view">9753a8974756711029804c6d826d4307</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-11-15 08:52:41</sys_updated_on>
+            <sys_updated_on>2023-11-27 06:10:57</sys_updated_on>
             <sys_user/>
-            <type>chart</type>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_requested_for_email</element>
+            <element>short_description</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-11-15 08:52:41</sys_created_on>
-            <sys_id>61c317094766711029804c6d826d4350</sys_id>
+            <sys_created_on>2023-11-29 10:45:15</sys_created_on>
+            <sys_id>dfc3f3e54772311029804c6d826d4319</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_needit_new" sys_domain="global" view="Default view">9753a8974756711029804c6d826d4307</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-11-15 08:52:41</sys_updated_on>
+            <sys_updated_on>2023-11-29 10:45:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
+            <element>what_needed</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-11-15 08:52:41</sys_created_on>
-            <sys_id>e1c317094766711029804c6d826d4350</sys_id>
+            <sys_created_on>2023-11-30 10:18:35</sys_created_on>
+            <sys_id>9647b00a47b2311029804c6d826d439c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_needit_new" sys_domain="global" view="Default view">9753a8974756711029804c6d826d4307</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-11-15 08:52:41</sys_updated_on>
+            <sys_updated_on>2023-11-30 10:18:35</sys_updated_on>
             <sys_user/>
-            <type>.split</type>
+            <type/>
         </sys_ui_element>
-        <sys_ui_chart action="INSERT_OR_UPDATE">
-            <form_field/>
-            <height>300</height>
-            <label>Active NeedIt Requests by Type</label>
-            <report/>
-            <report_field/>
-            <report_qual/>
-            <section caption="NULL" display_value="" name="x_58872_needit_needit_new" sys_domain="global" view="Default view">9753a8974756711029804c6d826d4307</section>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-11-15 08:52:41</sys_created_on>
-            <sys_id>29c317094766711029804c6d826d4300</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-11-15 08:52:41</sys_updated_on>
-        </sys_ui_chart>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
